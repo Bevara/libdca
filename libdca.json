@@ -1,0 +1,17 @@
+{
+    "name": "libdca",
+    "description": "DTS Coherent Acoustics decoder",
+    "filters":["dcadec"],
+    "help": "This filter decodes DTS elementary streams using dcadec, a standalone DTS decoder.",
+    "support": [
+        "audio"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libdca.accessor",
+    "filter_source":{
+        "dcadec" : "dec_dca.c"
+    },
+    "extension":{
+      "dts" : "audio"
+    },
+    "licence_required":false
+}
