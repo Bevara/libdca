@@ -1,5 +1,6 @@
 {
     "name": "libdca",
+    "version": "1.0.1",
     "description": "DTS Coherent Acoustics decoder",
     "filters":["dcadec"],
     "help": "This filter decodes DTS elementary streams using dcadec, a standalone DTS decoder.",
@@ -13,7 +14,7 @@
     "extension":{
       "dts" : "audio"
     },
-    "using": ["solver_minimal_1", "solver_1"],
+    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1"],
     "patents": {
         "status": "under-review",
         "note": "DTS Coherent Acoustics",
